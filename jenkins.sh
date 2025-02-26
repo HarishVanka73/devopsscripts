@@ -10,8 +10,8 @@ sudo yum install java-17-amazon-corretto -y
 yum install jenkins -y
 
 #STEP-4: Start and check the JENKINS Status
-systemctl start jenkins.service
-systemctl status jenkins.service
+systemctl start jenkins
+systemctl status jenkins
 
 #STEP-5: Auto-Start Jenkins
 chkconfig jenkins on
